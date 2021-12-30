@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* css reset */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    /* background-color: rgb(186, 126, 243); */
+}
+
+body::before{ 
+    content: "";
+    position: absolute;
+    background: url('/bg2.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 3390px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.79;
+}
+
+/* navbar styleing */
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    position: sticky;
+    top: 0px;
+    /* margin-bottom: 150px; */
+    height: 75px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+.all-box{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header */
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 690px;
+    /* background-color: aqua; */
+
+}
+header .text-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name h1{
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    font-size: 60px;
+}
+
+.fa-icon{
+    font-size: 35px;
+    padding: 0px 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.text-center p{
+    margin: 60px 0px 50px 0px;
+}
+
+/* section part personal details*/
+
+.container{
+    margin-bottom: 70px;
+    background: #ffd6d6;
+    /* margin-top: 40px; */
+    width: 80%;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.container h1{
+    padding: 20px 60px;
+}
+
+#about-me{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 75px;
+}
+
+img{
+    border: 2px solid black;
+    /* width: 210px; */
+    /* padding: 10px 70px; */
+    height: 251px;
+    border-radius: 129px;
+}
+
+#about-me p{
+    padding: 10px 60px;
+}
+
+/* section for projects */
+
+.container-prject{
+    margin-bottom: 70px;
+    /* margin: auto; */
+    background: #ffd6d6;
+    /* margin-top: 40px; */
+    width: 80%;
+    height: 700px;
+    border-radius: 20px ;
+}
+
+.container-prject h1{
+    padding: 40px 60px;
+}
+
+#project{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 60px;
+}
+
+#project h3 p{
+    padding-left: 10px;
+    display: inline-block;
+    color: #756e6e;
+}
+
+#project h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.padd{
+    padding: 40px 0px;
+}
+
+/* education work here */
+.education h1{
+    padding: 40px 60px;
+}
+
+.row{
+    display: flex;
+    padding: 40px 60px;
+}
+
+.row .iitbhi{
+    padding-right: 53px;
+}
+
+.row .edu-padd{
+    padding: 10px 0px;
+}
+
+/* language part here */
+.box{
+    /* padding: 0px 83px; */
+    padding-right: 170px
+}
+
+.box small{
+    color: rgb(116, 110, 110);
+}
+
+.language-experience{
+    padding: 10px 0px;
+}
+
+/* contact part */
+.container-contact{
+    margin-bottom: 70px;
+    /* margin: auto; */
+    background: #ffd6d6;
+    /* margin-top: 40px; */
+    width: 80%;
+    height: 275px;
+    border-radius: 20px;
+}
+
+.container-contact h1{
+    padding: 40px 60px;
+}
+
+.row1{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px;
+}
+
+.fa-icon-3x{
+    font-size: 30px;
+    padding: 0px 100px 0px 0px;
+    color: black;
+    text-decoration: none;
+}
+.fa-icon-3x:hover{
+    
+    color: blueviolet;
+}
+
+/* footer part */
+
+footer{
+    margin-top: 100px;
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* width: 100%; */
+}
+
+
+/* applicable for all */
+
+.colorinBox{
+    color: brown;
+}
+
+
+/* @media only screen and(max-width: ){
+    
+} */
